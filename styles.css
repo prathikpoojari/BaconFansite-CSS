@@ -1,0 +1,40 @@
+body {
+  background: linear-gradient(135deg, #FDDCC9, #D7E2E3, #F5ECD8);
+  text-align: center;
+  background-attachment: fixed;
+  background-blur: 10px;
+  backdrop-filter: blur(10px);
+}
+
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 50px;
+  color: red;
+}
+
+img:hover {
+  background-color: lightblue;
+}
+
+.bacon {
+  background-color: green;
+}
+
+.broccoli {
+  background-color: red;
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+#heading {
+  color: red;
+}
